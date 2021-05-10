@@ -28,6 +28,7 @@ body{
 
 .menu{
     position: fixed;
+    opacity: 0.8;
     top: 0;
     z-index: 1; /*always on top of the content*/
     display: flex;
@@ -96,5 +97,18 @@ section{
     height: 100vh; 
 }
 #contact{
-    height: 10vh; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#contact a i{
+    font-size: 50px;
+    margin: 10px 10px 0px 10px;
+    color: white;
+}
+footer{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
