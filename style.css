@@ -108,6 +108,9 @@ section{
     margin: 10px 10px 0px 10px;
     color: white;
 }
+#contact a i:hover{
+    color: rgb(224, 223, 223);
+}
 footer{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
