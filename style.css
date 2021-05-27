@@ -72,9 +72,9 @@ section{
 }
 .row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 10vh;
-    width: 600px;
+    width: 80%;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
     text-align: center;
