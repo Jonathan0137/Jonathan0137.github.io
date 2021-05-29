@@ -69,8 +69,8 @@ section{
 }
 
 @media (max-width: 800px){
-    .about_title {
-        flex-direction: column !important;
+    .row{
+        padding: 1rem !important;
     }
     .title_content h3{
         text-align: left;
@@ -99,7 +99,7 @@ section{
     align-items: flex-start;
     text-align: left;
     line-height: 1;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 .title_content h3{
     font-size: 1.5rem;
@@ -109,6 +109,7 @@ section{
 .title_content p{
     font-size: 1rem;
     line-height: 1;
+    color: #aaa;
 }
 
 
@@ -122,12 +123,12 @@ strong{
     color: #7C90FE;
 }
 .UTSC{
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
 }
 .FC{
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
 }
 #projects{
     height: 50rem; 
