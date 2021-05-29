@@ -13,8 +13,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    /* height: 100vh; */
-    /* overflow: hidden; */
     line-height: 1.6;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -45,8 +43,7 @@ section{
 }
 
 #home{
-    height: 100vh;
-    margin-bottom: 30vh;
+    height: 50rem;
 }
 #home h1{
     font-size: 30px;
@@ -65,10 +62,22 @@ section{
     margin: 10px 10px 30px 10px;
 }
 #about{
-    height: 130vh; 
+    height: 90rem; 
 }
 #about h1{
     height: 80px;
+}
+
+@media (max-width: 800px){
+    .about_title {
+        flex-direction: column !important;
+    }
+    .title_content h3{
+        text-align: left;
+        font-size: medium !important;
+        line-height: normal !important;
+        margin-top: 1rem;
+    }
 }
 .row{
     display: flex;
@@ -77,7 +86,6 @@ section{
     width: 80%;
     background: rgba(0, 0, 0, 0.4);
     padding: 40px;
-    text-align: center;
     border-radius: 10px;
 }
 .about_title{
@@ -88,20 +96,19 @@ section{
 }
 .title_content{
     color: white;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
     line-height: 1;
-    text-indent: 10px;
+    margin-left: 1.5rem;
 }
 .title_content h3{
-    font-size: 23px;
+    font-size: 1.5rem;
     line-height: 2;
-    text-indent: 15px;
+
 }
 .title_content p{
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1;
-    text-indent: 15px;
 }
 
 
@@ -123,7 +130,7 @@ strong{
     height: 100px;
 }
 #projects{
-    height: 130vh; 
+    height: 50rem; 
 }
 #projects h1{
     line-height: 3;
