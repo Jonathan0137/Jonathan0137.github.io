@@ -63,6 +63,7 @@ section{
 }
 #about{
     height: 90rem; 
+    padding-bottom: 10rem;
 }
 #about h1{
     height: 80px;
@@ -130,14 +131,22 @@ strong{
     width: 6rem;
     height: 6rem;
 }
+.Veeva{
+    width: 6rem;
+    height: 6rem;  
+}
 #projects{
-    height: 50rem; 
+    height: 80rem; 
+    align-items: center;
+    justify-content: center;
 }
 #projects h1{
     line-height: 3;
 }
 .card{
     background: rgba(0, 0, 0, 0.3);
+    height: 28rem;
+
 }
 .card-body{
     color: black;
@@ -151,6 +160,9 @@ strong{
 }
 .card-text{
     color: white;
+}
+.card-content{
+    padding-bottom: 2rem;
 }
 
 #contact{
