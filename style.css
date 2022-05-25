@@ -26,6 +26,7 @@ body::before {
   height: 100%;
   background: linear-gradient(#4f15ad, #52a04f);
   clip-path: circle(20% at right 70%);
+  z-index: -1;
 }
 body::after {
   content: "";
@@ -77,11 +78,11 @@ section {
   border-radius: 50%;
   margin: 10px 10px 30px 10px;
 }
-#about {
+#experience {
   height: 90rem;
   padding-bottom: 10rem;
 }
-#about h1 {
+#experience h1 {
   height: 80px;
 }
 
@@ -105,7 +106,7 @@ section {
   padding: 40px;
   border-radius: 10px;
 }
-.about_title {
+.experience_title {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -127,7 +128,7 @@ section {
   color: #aaa;
 }
 
-.about_content {
+.experience_content {
   line-height: 1;
   text-align: left;
   padding-top: 10px;
