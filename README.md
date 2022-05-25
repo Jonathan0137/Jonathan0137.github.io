@@ -4,7 +4,11 @@ https://Jonathan0137.github.io
 
 
 # Incoming Updates:
-1. First Page circle is covering text, make it go behind text
-2. Rename about to experience page
-3. Experience page widget make it wider
-4. Project header bar doesn't direct to projects.
+
+
+# Finished Updates:
+- [x] First Page circle is covering text, make it go behind text
+
+- [x] Rename about to experience page
+
+- [x] Project header bar doesn't direct to projects.
